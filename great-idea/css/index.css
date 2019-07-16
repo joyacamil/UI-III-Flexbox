@@ -67,30 +67,29 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 876px;
-	/* TB LR */
 	margin: 0 auto;
   }
   
   /* header */
   
   header nav {
-	color: grey;
-	text-decoration: none;
 	display: flex;
-	width: 691px;
-	vertical-align: top;
-	margin-top: 35px;
+	flex-direction: row;
+	justify-content: baseline;
+	align-items: space-around;
+	margin-top: 50px;
+
   }
   
   header nav a {
+	color: grey;
+	text-decoration: none;
 	margin-right: 65px;
 	font-size: 14px;
-	color: gray;
-	text-decoration: none;
   }
   
   header nav a:hover {
-	text-decoration: underline;
+	text-decoration-style: wavy;
   }
   
   header nav a:first-child {
@@ -101,19 +100,20 @@ h1, h2, h3, h4, h5 {
 	margin-right: 0;
   }
   
-  header .logo {
-	margin-top: 25px;
+  header nav .logo {
+	position: relative;
+	margin-top: -15px;
+}
+  .cta {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
   }
-  
-  /* cta */
-  
+
   .cta .cta-text {
-	display: inline-block;
-	vertical-align: top;
 	font-size: 77px;
 	margin-top: 120px;
 	text-align: center;
-	padding: 0px 75px;
   }
   
   .cta .cta-text button {
@@ -132,7 +132,6 @@ h1, h2, h3, h4, h5 {
   }
   
   .cta img {
-	display: inline-block;
 	margin-top: 69px;
   }
   
