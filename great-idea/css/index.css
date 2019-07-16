@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5 {
 	padding: 8px 44px;
 	font-size: 17px;
 	border: 1px solid black;
-	cursor: pointer;
+	cursor: pointegitr;
   }
   
   .cta .cta-text button:hover {
@@ -143,16 +143,8 @@ h1, h2, h3, h4, h5 {
   
   .main-content .top-content {
 	padding: 0 10px;
-  }
-  
-  .main-content .top-content .text-content {
-	width: 410px;
-	display: inline-block;
-	margin-right: 34px;
-  }
-  
-  .main-content .top-content .text-content:last-child {
-	margin-right: 0;
+	display: flex;
+	justify-content: space-around;
   }
   
   .main-content .middle-img {
@@ -160,15 +152,11 @@ h1, h2, h3, h4, h5 {
   }
   
   .main-content .bottom-content {
+	display: flex;
 	margin-top: 37px;
 	padding: 0 10px;
   }
   
-  .main-content .bottom-content .text-content {
-	width: 275px;
-	display: inline-block;
-	margin-right: 12px;
-  }
   
   .main-content .bottom-content .text-content:last-child {
 	margin-right: 0;
