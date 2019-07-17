@@ -220,3 +220,80 @@ h1, h2, h3, h4, h5 {
 .services-header-img {
     margin: 20px 0;
 }
+
+.container-two .services-intro h1 {
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.container-two .services-intro p {
+	margin-bottom: 20px;
+}
+
+.container-two .different-services {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.container-two .one {
+	padding: 15px;
+	background-color: gainsboro;
+	border: 1px solid black;
+	width: 400px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.container-two button {
+	text-align: center;
+	padding: 5px 35px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.container-two .two {
+	padding: 15px;
+	background-color: gainsboro;
+	border: 1px solid black;
+	width: 400px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.container-two .three {
+	padding: 15px;
+	background-color: gainsboro;
+	border: 1px solid black;
+	width: 400px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.container-two .four {
+	padding: 15px;
+	background-color: gainsboro;
+	border: 1px solid black;
+	width: 400px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.container-two .five {
+	padding: 15px;
+	background-color: gainsboro;
+	border: 1px solid black;
+	width: 400px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.container-two .six {
+	padding: 15px;
+	background-color: gainsboro;
+	border: 1px solid black;
+	width: 400px;
+	height: auto;
+	margin-bottom: 40px;
+}
