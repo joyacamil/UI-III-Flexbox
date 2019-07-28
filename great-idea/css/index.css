@@ -199,10 +199,6 @@ h1, h2, h3, h4, h5 {
 	font-size: 14px;
   }
   
-  .container-two header nav a:hover {
-	text-decoration-style: wavy;
-  }
-  
   .container-two header nav a:first-child {
 	margin-left: 0;
   }
@@ -237,7 +233,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: 40px;
 }
 
-.container-two .one {
+.container-two .different-services .services-listz {
 	padding: 15px;
 	background-color: gainsboro;
 	border: 1px solid black;
@@ -251,51 +247,6 @@ h1, h2, h3, h4, h5 {
 	padding: 10px 35px;
 	background-color: white;
 	border-radius: 15px;
-}
-
-.container-two .two {
-	padding: 15px;
-	background-color: gainsboro;
-	border: 1px solid black;
-	width: 400px;
-	height: auto;
-	margin-bottom: 40px;
-}
-
-.container-two .three {
-	padding: 15px;
-	background-color: gainsboro;
-	border: 1px solid black;
-	width: 400px;
-	height: auto;
-	margin-bottom: 40px;
-}
-
-.container-two .four {
-	padding: 15px;
-	background-color: gainsboro;
-	border: 1px solid black;
-	width: 400px;
-	height: auto;
-	margin-bottom: 40px;
-}
-
-.container-two .five {
-	padding: 15px;
-	background-color: gainsboro;
-	border: 1px solid black;
-	width: 400px;
-	height: auto;
-	margin-bottom: 40px;
-}
-
-.container-two .six {
-	padding: 15px;
-	background-color: gainsboro;
-	border: 1px solid black;
-	width: 400px;
-	height: auto;
-	margin-bottom: 40px;
 }
 
 .container-two li {
